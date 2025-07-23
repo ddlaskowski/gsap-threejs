@@ -4,4 +4,13 @@ const words = [
   { text: "Designs", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
 ];
-export {words};
+
+const counterItems = [
+  { value: 5, suffix: "+", label: "Years of Experience" },
+  { value: 303, suffix: "+", label: "Satisfied Clients" },
+  { value: 102, suffix: "+", label: "Completed Projects" },
+  { value: 90, suffix: "%", label: "Client Retention Rate" },
+];
+
+export {counterItems, words};
+
